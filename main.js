@@ -1,4 +1,4 @@
-import Gallery from "./js/Gallery.js"
+import Gallery from "./view/Gallery.js"
 
 $(()=>{
     new Gallery()
