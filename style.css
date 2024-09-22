@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 95vh;
+    background-image: url("https://www.sjak.co.ke/wp-content/uploads/2024/07/Rovanpera-in-action-during-the-SS3-at-Tet-Rally-Latvia-.-photo-WRC.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Sofadi One;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.kiskepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.kiskepek img{
+    width: 95%;
+    margin: 10px;
+}
+
+.kiskepek img:hover{
+    border: 1px solid white;
+}
+
+.nagykep img{
+    max-width: 500px;
+}
